@@ -2,7 +2,7 @@
 <head>
  <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-<title> Formulaire html</title>
+<title>CHOSE Formulaire html</title>
 </head>
 
 <body>

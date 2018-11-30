@@ -1,5 +1,5 @@
 <?php
-
+//des choses
 $bdd = new PDO('mysql:host=localhost;dbname=espace_membre', 'root', '' );
 
 if(isset($_POST['forminscription']))

@@ -1,8 +1,21 @@
+<?php
+
+$bdd = new PDO('mysql:host=localhost;dbname=espace_membre', 'root', '' );
+
+if(isset($_POST['forminscription']))
+{
+    if(!empty($_POST['user_name']) AND !empty($_POST['telephone']) AND !empty($_POST['mail']) AND !empty($_POST['mdp']) AND !empty($_POST['confirm']) AND !empty($_POST['user_name']) AND !empty($_POST['pannel'])){
+        
+    }
+}
+    
+    
+?> 
 <!DOCTYPE HTML>
 <head>
  <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-<title> Formulaire php</title>
+<title> Formulaire html</title>
 </head>
 
 <body>
